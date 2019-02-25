@@ -1,0 +1,11 @@
+<configuration>
+    <root level="INFO">
+        <appender class="ch.qos.logback.core.ConsoleAppender">
+            <encoder>
+                <pattern>%d{HH:mm:ss.SSS} %5p %-60.60logger{59} : %m%n</pattern>
+                <charset>utf8</charset>
+            </encoder>
+        </appender>
+    </root>
+    <logger name="com.akelius" level="TRACE"/>
+</configuration>
